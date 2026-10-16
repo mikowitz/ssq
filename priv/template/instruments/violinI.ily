@@ -1,0 +1,3 @@
+violinOne = {
+  \clef treble
+}

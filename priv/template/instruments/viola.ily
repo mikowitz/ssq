@@ -1,0 +1,3 @@
+viola = {
+  \clef treble
+}

@@ -1,0 +1,3 @@
+cello = {
+  \clef treble
+}
