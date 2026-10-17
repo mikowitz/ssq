@@ -18,25 +18,25 @@ ef4
 s4 s4 s4 s4 
 ef4 
 ^\markup { \NoteHeadLine #200 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 s4 s4 s4 s4 s8 
 ef4 
 ^\markup { \NoteHeadLine #45 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s8 s4 
 r4 s4 s4 s4 
 ef8 
 ^\markup { \NoteHeadLine #200 #2 #1.5 #black }
 ef8
 ^\markup { \NoteHeadLine #10 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 r4 
 ef4 
 ^\markup { \NoteHeadLine #200 #2 #1.5 #black }
 s4 s4 s4 s4 s8 
 ef8
 ^\markup { \NoteHeadLine #7 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 r4 s4 
 ef4 
 ^\markup { \NoteHeadLine #13 #2 #1.5 #black }
@@ -46,11 +46,11 @@ ef4
 s4 s4 
 ef4 
 ^\markup { \NoteHeadLine #200 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 s4 s4 s4 s4 
 ef4 
 ^\markup { \NoteHeadLine #8 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 r4 s4 s4 s4 s4 s4 s4 s4 s4 
 \stopStaff
@@ -70,7 +70,7 @@ s4
 \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
 ef4 
 ^\markup { \NoteHeadLine #50 #2 #1.5 #red }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #red }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #red }
 
 s4 s4 s4 s4 
 r4 
@@ -78,7 +78,7 @@ ef4
 ^\markup { \NoteHeadLine #200 #2 #1.5 #black }
 ef4 
 ^\markup { \NoteHeadLine #2 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 r4 
 ef4 
@@ -86,7 +86,7 @@ ef4
 s4 
 ef4 
 ^\markup { \NoteHeadLine #70 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 r4 s4 
 ef4 
@@ -94,7 +94,7 @@ ef4
 s4 s8. 
 ef4 
 ^\markup { \NoteHeadLine #3 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s16 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 }
 
@@ -112,7 +112,7 @@ s16 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4
 \tweak Accidental.stencil #ly:text-interface::print
 \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
 ef4 
-^\markup { \NoteHeadLine #10 #2 #1.5 #red }
+^\markup { \NoteHeadLine #31 #2 #1.5 #red }
 s4 
 % \tweak color "red"
 % \override Staff.LedgerLineSpanner.color = "black"
@@ -122,11 +122,17 @@ s4
 \revert Staff.LedgerLineSpanner.color
 \startStaff
 ef4 
-^\markup { \NoteHeadLine #200 #2 #1.5 #black }
-s4 s4 s4 s4 s4 s8 
+^\markup { \NoteHeadLine #104 #2 #1.5 #black }
+s4 s4 s4 s4 s4 
+s16 
+s32
+s128
+\parenthesize
 ef4 
-^\markup { \NoteHeadLine #50 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #89 #2 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
+s128
+s64
 s8 s4 s4 s4 s4 
 \stopStaff
 \revert Staff.LedgerLineSpanner.color
@@ -137,29 +143,29 @@ s8 s4 s4 s4 s4
 \tweak Accidental.stencil #ly:text-interface::print
 \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
 ef4 
-^\markup { \NoteHeadLine #10 #2 #1.5 #red }
+^\markup { \NoteHeadLine #17 #2 #1.5 #red }
 \stopStaff
 \revert Staff.LedgerLineSpanner.color
 \startStaff
 % \tweak color "red"
 ef4 
-^\markup { \NoteHeadLine #200 #2 #1.5 #black }
+^\markup { \NoteHeadLine #23 #2 #1.5 #black }
 s8. 
 ef4 
 ^\markup { \NoteHeadLine #200 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s16 s4 s4 s4 s4 s4 s4 s4 
 ef4 
 ^\markup { \NoteHeadLine #200 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s8 
 ef4 
 ^\markup { \NoteHeadLine #200 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s8 s4 s4 s4 s4 s4 s4 s8
 ef4 
 ^\markup { \NoteHeadLine #2 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s8 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 \tweak color "red"
 \tweak Accidental.stencil #ly:text-interface::print
@@ -203,11 +209,11 @@ ef4
 s8 
 ef4 
 ^\markup { \NoteHeadLine #200 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s8 s4 s4 s4 s4 s4 s4 s8. 
 ef4 
 ^\markup { \NoteHeadLine #60 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s16 s4 s4 s4 
 \stopStaff
 \revert Staff.LedgerLineSpanner.color
@@ -230,7 +236,7 @@ ef4
 s4 
 ef4 
 ^\markup { \NoteHeadLine #70 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 \stopStaff
 \revert Staff.LedgerLineSpanner.color
@@ -267,7 +273,7 @@ ef4
 s4 s4 s4 s4 s4 s4 
 ef4 
 ^\markup { \NoteHeadLine #40 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 
 \stopStaff
 \revert Staff.LedgerLineSpanner.color
@@ -288,11 +294,11 @@ ef4
 s4 s4 s4 s8 
 ef4 
 ^\markup { \NoteHeadLine #200 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s8 s4 s4 s4 s4 s4 s4 s8 
 ef8
 ^\markup { \NoteHeadLine #5 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 \stopStaff
 \revert Staff.LedgerLineSpanner.color
 \startStaff
@@ -313,11 +319,11 @@ ef4
 s4 s4 s4 s4 s4 
 ef4 
 ^\markup { \NoteHeadLine #200 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 s4 s4 s4 s4 s4 
 ef4 
 ^\markup { \NoteHeadLine #80 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 
 \stopStaff
@@ -339,7 +345,7 @@ ef4
 s4 s4 
 ef4 
 ^\markup { \NoteHeadLine #115 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 s4 s4 s4 s4 
 \stopStaff
 \revert Staff.LedgerLineSpanner.color
@@ -358,7 +364,7 @@ s16
 \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
 ef16
 ^\markup { \NoteHeadLine #1 #2 #1.5 #red }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #red }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #red }
 \stopStaff
 \revert Staff.LedgerLineSpanner.color
 \startStaff
@@ -368,7 +374,7 @@ ef!4
 s4 s4 s4 s4 s4 s4 s4 
 ef4 
 ^\markup { \NoteHeadLine #50 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s4 
 \stopStaff
 \revert Staff.LedgerLineSpanner.color
@@ -407,11 +413,11 @@ ef8
 s16 
 ef16 
 ^\markup { \NoteHeadLine #200 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s4 
 ef4 
 ^\markup { \NoteHeadLine #45 #2 #1.5 #black }
-^\markup { \NoteHeadLine #5 #-7 #1.5 #black }
+^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 s4 s4 
 \stopStaff
 \revert Staff.LedgerLineSpanner.color

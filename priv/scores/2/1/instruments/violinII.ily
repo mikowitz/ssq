@@ -9,9 +9,10 @@ violinII = \relative c' {
 \oneVoice
 
 \scaleDurations 600/180 {
+\once\hide Rest
 r4 s4 s4 s4 s4 s4 s4 s4 s4 
 ef4 
-_\markup { \NoteHeadLine #26 #2 #.5 #black }
+_\markup { \NoteHeadLine #28 #2 #.5 #black }
 s4 s4 s4 s4 s4 s4 
 r4 
 ef4 
@@ -76,15 +77,17 @@ s4 s4 s4 s4 s4 s4 s4 s4 s4 s4
 s4 s4 
 \tweak color "red"
 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
+\tweak Accidental.color "red"
 \tweak color "red"
 \tweak Accidental.stencil #ly:text-interface::print
 \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
 ef4 
-_\markup { \NoteHeadLine #10 #2 #.5 #red }
+_\markup { \NoteHeadLine #13 #2 #.5 #red }
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #30 #2 #.5 #black }
+_\markup { \NoteHeadLine #20 #2 #.5 #black }
 s8
+\parenthesize
 ef4 
 _\markup { \NoteHeadLine #90 #2 #.5 #black }
 _\markup { \NoteHeadLine #5 #-7 #.5 #black }

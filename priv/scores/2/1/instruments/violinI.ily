@@ -8,18 +8,21 @@ violinI = \relative c' {
 \scaleDurations 600/184 {
 ef4 
 _\markup {
-    \NoteHeadLine #99 #2 #0.5 #black
+    \NoteHeadLine #100 #2 #0.5 #black
 }
 s4 s4 s4 s4 s4 s16 
 \parenthesize ef4 
-_\markup { \NoteHeadLine #120 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #138 #2 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
-s8. s4 s4 s4 s4 s8 
-\parenthesize ef4  
+s8. s4 s4 s4 s4 
+s16
+s32
+\parenthesize 
+ef4  
 _\markup { \NoteHeadLine #30 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
-
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
+s32
 s8
 
 r4 
@@ -37,13 +40,13 @@ _\markup { \NoteHeadLine #50 #2 #.5 #black }
 s4 s4 
 \parenthesize ef4 
 _\markup { \NoteHeadLine #50 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
 s4 s4 s4 s4 s4 
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #60 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
 s4 
 s4 
@@ -52,7 +55,7 @@ s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #20 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
 r4 s4 s4 s4 s4 s4 s4 s4 s4 
 ef4 
@@ -62,7 +65,7 @@ s8
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #100 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s8 s4 s4 s4 
 r4 
 \omit Flag
@@ -71,20 +74,22 @@ _\markup { \NoteHeadLine #5 #2 #.5 #black }
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #70 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s8 s4 s4 s4 s4 s4 s4 s4 
 r4 s4 
 ef4 
 _\markup { \NoteHeadLine #30 #2 #.5 #black }
 s8.
+\parenthesize
 ef4 
 _\markup { \NoteHeadLine #33 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s16
 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
+\parenthesize
 ef4
 _\markup { \NoteHeadLine #15 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 r4 s4 s4 s4 
 ef4 
 _\markup { \NoteHeadLine #18 #2 #.5 #black }
@@ -99,7 +104,7 @@ s4 s4 s4 s4
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #115 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s4 s4 s4 s4 s4 
 }
 
@@ -114,11 +119,16 @@ ef4 s4 s4 s4 s4 s4
 \tweak Accidental.color "red"
 \tweak Accidental.stencil #ly:text-interface::print
 \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
-ef4
-_\markup { \NoteHeadLine #10 #2 #0.5 #red }
-% \tweak color "red"
+ef4  
+_\markup { \NoteHeadLine #13 #2 #0.5 #red }
+_\markup {
+    \SyncLine #5 #-3 #7 #-8 #5 #-14
+}
 ef4 
-_\markup { \NoteHeadLine #10 #2 #0.5 #black }
+_\markup { \NoteHeadLine #18 #2 #0.5 #black }
+_\markup { 
+    \override #'(start-x . 0.5)
+    \SyncLine #-2 #-3 #-5 #-11 #8 #-14 }
 
 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 \tweak Accidental.color "red"
@@ -133,7 +143,7 @@ _\markup { \NoteHeadLine #5 #2 #.5 #red }
 \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
 \parenthesize ef8 
 _\markup { \NoteHeadLine #4 #2 #.5 #red }
-_\markup { \NoteHeadLine #5 #-7 #.5 #red }
+_\markup { \NoteHeadLine #6 #-8 #.5 #red }
 % \tweak color "red"
 ef!4 
 _\markup { \NoteHeadLine #70 #2 #.5 #black }
@@ -153,7 +163,7 @@ s8.
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #118 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
 s16 s4 s4 s4 s4 s4 s4 s4 
 \tweak color "red"
@@ -175,7 +185,7 @@ s4 s4 s16
 \parenthesize
 ef8*3/2
 _\markup { \NoteHeadLine #5 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
 \tweak Accidental.color "red"
 \tweak color "red"
@@ -191,28 +201,28 @@ s4 s4 s4 s4 s4 s8
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #118 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s8 s4 s4 s4 s4 s4 s4 s8 
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #118 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s8 s4 s4 s4 s4 s4 s4 s4 
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #118 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s4 s4 s4 s4 s4 s4 s4 
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #118 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s4 
 s4 s4 s4 s4 s4 s4 
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #118 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 \tweak color "red"
 \tweak Accidental.stencil #ly:text-interface::print
@@ -232,9 +242,10 @@ s4
 ef4 
 _\markup { \NoteHeadLine #20 #2 #.5 #black }
 s8
+\parenthesize
 ef4 
 _\markup { \NoteHeadLine #55 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s8 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 \tweak Accidental.color "red"
 \tweak color "red"
@@ -246,9 +257,10 @@ _\markup { \NoteHeadLine #10 #2 #.5 #red }
 ef4 
 _\markup { \NoteHeadLine #80 #2 #.5 #black }
 s4 s4 s4 s4 
+\parenthesize
 ef4 
 _\markup { \NoteHeadLine #50 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s4 s4 s4 
 \tweak Accidental.color "red"
 \tweak color "red"
@@ -275,7 +287,7 @@ s4 s4 s4 s4 s4 s16
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #50 #2 #.5 #red }
-_\markup { \NoteHeadLine #5 #-7 #.5 #red }
+_\markup { \NoteHeadLine #6 #-8 #.5 #red }
 s8. s4 s4 
 % \tweak color "red"
 ef4 
@@ -295,7 +307,7 @@ _\markup { \NoteHeadLine #30 #2 #.5 #red }
 \parenthesize
 ef4
 _\markup { \NoteHeadLine #20 #2 #.5 #red }
-_\markup { \NoteHeadLine #5 #-7 #.5 #red }
+_\markup { \NoteHeadLine #6 #-8 #.5 #red }
 s8
 % \tweak color "red"
 ef4 
@@ -304,7 +316,7 @@ s4 s4 s4 s4 s4 s8
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #80 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s8 s4 s4 s4 s4 
 \tweak Accidental.color "red"
 \tweak color "red"
@@ -319,7 +331,7 @@ s8.
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #30 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
 s16 s4 
 \tweak Accidental.color "red"
@@ -336,14 +348,14 @@ s4 s4 s4
 \parenthesize
 ef4 
 _\markup { \NoteHeadLine #115 #2 #.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 \tweak Accidental.color "red"
 \tweak color "red"
 \tweak Accidental.stencil #ly:text-interface::print
 \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
 ef4 
-_\markup { \NoteHeadLine #15 #2 #.5 #red }
+_\markup { \NoteHeadLine #14.5 #2 #.5 #red }
 }
 
 } >>

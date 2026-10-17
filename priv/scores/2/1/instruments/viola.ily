@@ -10,17 +10,20 @@ viola = \relative c' {
 \override Rest.font-size = #2
 
 \scaleDurations 600/195 {
-r4 s4 s4 s4 
+\once\hide Rest r4 s4 s4 s4 
 ef4
-_\markup { \NoteHeadLine #15 #2 #3.5 #black } 
+_\markup { \NoteHeadLine #19 #2 #3.5 #black } 
+\once\hide Rest
 r4 
 ef8 
-_\markup { \NoteHeadLine #15 #2 #3.5 #black } 
-s16 
+_\markup { \NoteHeadLine #8 #2 #3.5 #black } 
+s32 
+\parenthesize
 ef4 
-_\markup { \NoteHeadLine #6 #2 #3.5 #black }
-_\markup { \NoteHeadLine #5 #-7 #3.5 #black }
-s16 s4 s4 s4 s4 
+_\markup { \NoteHeadLine #8 #2 #3.5 #black }
+_\markup { \NoteHeadLine #6 #-8 #3.5 #black }
+s16. s4 s4 s4 s4 
+\once\hide Rest
 r4 s4 
 ef4 
 _\markup { \NoteHeadLine #15 #2 #3.5 #black }
@@ -101,10 +104,10 @@ s4 s4 s4 s4 s4 s4 s4 s4 s4
 \tweak Accidental.stencil #ly:text-interface::print
 \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
 ef4 
-_\markup { \NoteHeadLine #10 #2 #3.5 #red }
+_\markup { \NoteHeadLine #12 #2 #3.5 #red }
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #80 #2 #3.5 #black }
+_\markup { \NoteHeadLine #88 #2 #3.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 \tweak Accidental.color "red"
 \tweak color "red"
