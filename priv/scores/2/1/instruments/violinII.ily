@@ -115,7 +115,7 @@ s8 s4 s4 s4 s4 s4 s4
 \tweak Accidental.stencil #ly:text-interface::print
 \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
 ef8 
-_\markup { \NoteHeadLine #6 #2 #.5 #red }
+_\markup { \NoteHeadLine #3.6 #2 #.5 #red }
 
 \tweak color "red"
 \tweak Parentheses.color "red"
@@ -136,7 +136,7 @@ s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4
 \tweak Accidental.stencil #ly:text-interface::print
 \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
 ef4 
-_\markup { \NoteHeadLine #40 #2 #.5 #red }
+_\markup { \NoteHeadLine #44.6 #2 #.5 #red }
 s4 s8.
 \tweak NoteColumn.X-offset #.2
 \tweak TextScript.X-offset #.2
@@ -153,7 +153,7 @@ s16
 s4 s4 s4 s4 s4 s4 
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #20 #2 #.5 #black }
+_\markup { \NoteHeadLine #9.1 #2 #.5 #black }
 \tweak NoteColumn.X-offset #-1.7
 \tweak TextScript.X-offset #-1.7
 \parenthesize
@@ -169,13 +169,13 @@ ef4
 _\markup { \NoteHeadLine #10 #2 #.5 #red }
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #30 #2 #.5 #black }
+_\markup { \NoteHeadLine #48 #2 #.5 #black }
 s4 s4 s16
 \tweak NoteColumn.X-offset #-1.2
 \tweak TextScript.X-offset #-1.2
 \parenthesize
 ef4 
-_\markup { \NoteHeadLine #135 #2 #.5 #black }
+_\markup { \NoteHeadLine #135.5 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s16
 s8 s4 s4 s4 s4 s4 s4 s8 
@@ -183,7 +183,7 @@ s8 s4 s4 s4 s4 s4 s4 s8
 \tweak TextScript.X-offset #-2.8
 \parenthesize
 ef4 
-_\markup { \NoteHeadLine #135 #2 #.5 #black }
+_\markup { \NoteHeadLine #135.5 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s8 s4 s4 s4 s4 s4 s4 s8 
 \tweak NoteColumn.X-offset #-1.1
@@ -203,13 +203,13 @@ _\markup { \NoteHeadLine #30 #2 #.5 #red }
 s4 
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #80 #2 #.5 #black }
+_\markup { \NoteHeadLine #57.4 #2 #.5 #black }
 s4 s4 s8
 \tweak NoteColumn.X-offset #.9
 \tweak TextScript.X-offset #.9
 \parenthesize
 ef4 
-_\markup { \NoteHeadLine #118 #2 #.5 #black }
+_\markup { \NoteHeadLine #135.5 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s8
 s4 s4 s4 s4 s4 s4 s8. 
