@@ -16,7 +16,7 @@ _\markup { \NoteHeadLine #19 #2 #3.5 #black }
 \once\hide Rest
 r4 
 ef8 
-_\markup { \NoteHeadLine #8 #2 #3.5 #black } 
+_\markup { \NoteHeadLine #6.5 #2 #3.5 #black } 
 s32 
 \tweak NoteColumn.X-offset #-.8
 \tweak TextScript.X-offset #-.8

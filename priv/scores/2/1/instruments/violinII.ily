@@ -98,7 +98,7 @@ ef4
 _\markup { \NoteHeadLine #13 #2 #.5 #red }
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #20 #2 #.5 #black }
+_\markup { \NoteHeadLine #17.5 #2 #.5 #black }
 s16
 s32
 s64
@@ -110,6 +110,7 @@ _\markup { \NoteHeadLine #89 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s64
 s8 s4 s4 s4 s4 s4 s4 
+\tweak Accidental.color "red"
 \tweak color "red"
 \tweak Accidental.stencil #ly:text-interface::print
 \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }

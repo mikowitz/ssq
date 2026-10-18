@@ -33,7 +33,7 @@ timeSig = {
     \repeat unfold 9 {
       s2 \bar "'" \noBreak
     }
-    s2 \bar "'" \break
+    s2 \bar "|" \break
   }
   \bar "|."
 }

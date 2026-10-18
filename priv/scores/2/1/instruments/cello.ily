@@ -144,7 +144,7 @@ s4
 \revert Staff.LedgerLineSpanner.color
 \startStaff
 ef4 
-^\markup { \NoteHeadLine #104 #2 #1.5 #black }
+^\markup { \NoteHeadLine #102.3 #2 #1.5 #black }
 s4 s4 s4 s4 s4 
 s16 
 s32
