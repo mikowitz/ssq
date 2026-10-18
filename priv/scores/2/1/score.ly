@@ -9,7 +9,9 @@
 \include "instruments/cello.ily"
 
 \score {
-  \context StaffGroup = "String Quartet" <<
+  \context StaffGroup = "String Quartet" \with {
+  \override SystemStartBracket.layer = #100
+  } <<
     \context Staff = "Violin I Staff" \with {
       instrumentName = "Violin I"
       shortInstrumentName = "Vln I"
