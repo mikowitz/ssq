@@ -24,6 +24,7 @@
     \Staff
     \override Hairpin.to-barline = ##f
     \override Glissando.thickness = #3
+    \hide Rest
   }
 }
 

@@ -29,7 +29,7 @@ violinI = \relative c' {
             % \tweak TextScript.X-offset #-.7
             \parenthesize 
             ef4  
-            _\markup { \NoteHeadLine #35 #2 #.5 #black }
+            _\markup { \NoteHeadLine #34.5 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
             s32
@@ -38,7 +38,7 @@ violinI = \relative c' {
             r4 
 
             ef4 
-            _\markup { \NoteHeadLine #67 #2 #.5 #black }
+            _\markup { \NoteHeadLine #68 #2 #.5 #black }
 
             s4 * 14
 
@@ -46,7 +46,7 @@ violinI = \relative c' {
             s4 
 
             ef4 
-            _\markup { \NoteHeadLine #15 #2 #.5 #black }
+            _\markup { \NoteHeadLine #20 #2 #.5 #black }
 
             r4 
 
@@ -65,7 +65,7 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #0
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #60 #2 #.5 #black }
+            _\markup { \NoteHeadLine #66 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
             s4 * 42
@@ -73,7 +73,7 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #-1.2
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #20 #2 #.5 #black }
+            _\markup { \NoteHeadLine #21 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
             r4 
@@ -87,7 +87,7 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #-.7
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #100 #2 #.5 #black }
+            _\markup { \NoteHeadLine #107 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
             s16
@@ -103,7 +103,7 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #-2.9
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #70 #2 #.5 #black }
+            _\markup { \NoteHeadLine #75 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
             s8 
@@ -118,7 +118,7 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #-2.8
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #33 #2 #.5 #black }
+            _\markup { \NoteHeadLine #36 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
             s16
@@ -127,19 +127,19 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #-2.5
             \parenthesize
             ef4
-            _\markup { \NoteHeadLine #15 #2 #.5 #black }
+            _\markup { \NoteHeadLine #20 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
             r4 
             s4 * 3
 
             ef4 
-            _\markup { \NoteHeadLine #20.3 #2 #.5 #black }
+            _\markup { \NoteHeadLine #17 #2 #.5 #black }
 
             r4 
 
             ef4 
-            _\markup {\NoteHeadLine #5 #2 #.5 #black }
+            _\markup {\NoteHeadLine #8.5 #2 #.5 #black }
 
             s4 * 34
 
@@ -153,7 +153,7 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #-1.1
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #115 #2 #.5 #black }
+            _\markup { \NoteHeadLine #116 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
             s4 * 5
@@ -202,7 +202,7 @@ violinI = \relative c' {
             _\markup { \NoteHeadLine #6 #-8 #.5 #red }
             % \tweak color "red"
             ef!4 
-            _\markup { \NoteHeadLine #70 #2 #.5 #black }
+            _\markup { \NoteHeadLine #83 #2 #.5 #black }
 
             s4 * 4
             \tweak Accidental.color "red"
@@ -210,7 +210,7 @@ violinI = \relative c' {
             \tweak Accidental.stencil #ly:text-interface::print
             \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
             ef4 
-            _\markup { \NoteHeadLine #15 #2 #.5 #red }
+            _\markup { \NoteHeadLine #16.5 #2 #.5 #red }
             % \tweak color "red"
             ef4 
             _\markup { \NoteHeadLine #23 #2 #.5 #black }
@@ -220,7 +220,7 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #-1.7
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #118 #2 #.5 #black }
+            _\markup { \NoteHeadLine #121 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
             s16 
@@ -236,7 +236,7 @@ violinI = \relative c' {
             \tweak Accidental.stencil #ly:text-interface::print
             \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
             ef4 
-            _\markup { \NoteHeadLine #15 #2 #.5 #red }
+            _\markup { \NoteHeadLine #12.5 #2 #.5 #red }
             % \tweak color "red"
             ef4 
             _\markup { \NoteHeadLine #51 #2 #.5 #black }
@@ -245,7 +245,7 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #-1.2
             \parenthesize
             ef8*3/2
-            _\markup { \NoteHeadLine #5 #2 #.5 #black }
+            _\markup { \NoteHeadLine #10 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
             \tweak Accidental.color "red"
@@ -253,7 +253,7 @@ violinI = \relative c' {
             \tweak Accidental.stencil #ly:text-interface::print
             \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
             ef4 
-            _\markup { \NoteHeadLine #15 #2 #.5 #red }
+            _\markup { \NoteHeadLine #12 #2 #.5 #red }
             % \tweak color "red"
             ef4 
             _\markup { \NoteHeadLine #107.3 #2 #.5 #black }
@@ -311,7 +311,7 @@ violinI = \relative c' {
             \tweak Accidental.stencil #ly:text-interface::print
             \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
             ef4 
-            _\markup { \NoteHeadLine #30 #2 #.5 #red }
+            _\markup { \NoteHeadLine #33 #2 #.5 #red }
             s4 
 
             ef4 
@@ -321,7 +321,7 @@ violinI = \relative c' {
 
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #55 #2 #.5 #black }
+            _\markup { \NoteHeadLine #59 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
             s8 
             s4 * 9
@@ -330,7 +330,7 @@ violinI = \relative c' {
             \tweak Accidental.stencil #ly:text-interface::print
             \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
             ef4
-            _\markup { \NoteHeadLine #10 #2 #.5 #red } 
+            _\markup { \NoteHeadLine #12.5 #2 #.5 #red } 
             % \tweak color "red"
             ef4 
             _\markup { \NoteHeadLine #80.4 #2 #.5 #black }
@@ -340,7 +340,7 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #.2
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #50 #2 #.5 #black }
+            _\markup { \NoteHeadLine #70 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
             s16
             s4 * 3
@@ -349,7 +349,7 @@ violinI = \relative c' {
             \tweak Accidental.stencil #ly:text-interface::print
             \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
             ef4 
-            _\markup { \NoteHeadLine #30 #2 #.5 #red }
+            _\markup { \NoteHeadLine #28 #2 #.5 #red }
             s4 
             % \tweak color "red"
             ef4 
@@ -372,13 +372,13 @@ violinI = \relative c' {
             \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #50 #2 #.5 #red }
+            _\markup { \NoteHeadLine #57 #2 #.5 #red }
             _\markup { \NoteHeadLine #6 #-8 #.5 #red }
             s8. 
             s4 * 2
             % \tweak color "red"
             ef4 
-            _\markup { \NoteHeadLine #30 #2 #.5 #black }
+            _\markup { \NoteHeadLine #69 #2 #.5 #black }
             s4 * 3
             \tweak Accidental.color "red"
             \tweak color "red"
@@ -395,7 +395,7 @@ violinI = \relative c' {
             \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
             \parenthesize
             ef4
-            _\markup { \NoteHeadLine #20 #2 #.5 #red }
+            _\markup { \NoteHeadLine #22 #2 #.5 #red }
             _\markup { \NoteHeadLine #6 #-8 #.5 #red }
             s8
             % \tweak color "red"
@@ -406,7 +406,7 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #-1
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #80 #2 #.5 #black }
+            _\markup { \NoteHeadLine #91 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
             s8 
             s4 * 4
@@ -415,7 +415,7 @@ violinI = \relative c' {
             \tweak Accidental.stencil #ly:text-interface::print
             \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
             ef4 
-            _\markup { \NoteHeadLine #15 #2 #.5 #red }
+            _\markup { \NoteHeadLine #17 #2 #.5 #red }
             % \tweak color "red"
             ef4 
             _\markup { \NoteHeadLine #22.1 #2 #.5 #black }
@@ -423,7 +423,7 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #-2.7
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #30 #2 #.5 #black }
+            _\markup { \NoteHeadLine #37 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 
             s16 s4 
@@ -442,7 +442,7 @@ violinI = \relative c' {
             \tweak NoteColumn.X-offset #-.6
             \parenthesize
             ef4 
-            _\markup { \NoteHeadLine #115 #2 #.5 #black }
+            _\markup { \NoteHeadLine #119 #2 #.5 #black }
             _\markup { \NoteHeadLine #6 #-8 #.5 #black }
             s16
             s4 * 22
