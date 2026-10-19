@@ -31,13 +31,13 @@ r4
 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 r4 s4 
 ef4 
-_\markup { \NoteHeadLine #40 #2 #.5 #black }
+_\markup { \NoteHeadLine #45.5 #2 #.5 #black }
 s4 s32
 \tweak NoteColumn.X-offset #-1.1
 \tweak TextScript.X-offset #-1.1
 \parenthesize
 ef4 
-_\markup { \NoteHeadLine #118 #2 #.5 #black }
+_\markup { \NoteHeadLine #135.5 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s32
 s8. s4 s4 s4 s4 s32
@@ -45,7 +45,7 @@ s8. s4 s4 s4 s4 s32
 \tweak TextScript.X-offset #-1
 \parenthesize
 ef4 
-_\markup { \NoteHeadLine #118 #2 #.5 #black }
+_\markup { \NoteHeadLine #135.5 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s32
 s8. s4 s4 s4 s4 s32
@@ -62,7 +62,7 @@ ef4
 _\markup { \NoteHeadLine #20 #2 #.5 #black }
 r4 
 ef4 
-_\markup { \NoteHeadLine #40 #2 #.5 #black }
+_\markup { \NoteHeadLine #19.8 #2 #.5 #black }
 s32
 \tweak NoteColumn.X-offset #-1
 \tweak TextScript.X-offset #-1
@@ -238,7 +238,7 @@ _\markup { \NoteHeadLine #30 #2 #.5 #red }
 s4 
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #30 #2 #.5 #black }
+_\markup { \NoteHeadLine #8 #2 #.5 #black }
 \tweak NoteColumn.X-offset #-2.5
 \tweak TextScript.X-offset #-2.5
 \parenthesize
@@ -260,7 +260,7 @@ ef4
 _\markup { \NoteHeadLine #10 #2 #.5 #red }
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #40 #2 #.5 #black }
+_\markup { \NoteHeadLine #35.5 #2 #.5 #black }
 s4 s8
 \parenthesize
 ef4 
@@ -275,20 +275,20 @@ ef4
 _\markup { \NoteHeadLine #10 #2 #.5 #red }
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #90 #2 #.5 #black }
+_\markup { \NoteHeadLine #92.5 #2 #.5 #black }
 s4 s4 s4 s4 
 s8.
 \tweak NoteColumn.X-offset #-1.8
 \tweak TextScript.X-offset #-1.8
 \parenthesize
 ef4 
-_\markup { \NoteHeadLine #118 #2 #.5 #black }
+_\markup { \NoteHeadLine #135.5 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s16
 s4 s4 s4 s4 s4 s4 s8.
 \parenthesize
 ef4 
-_\markup { \NoteHeadLine #118 #2 #.5 #black }
+_\markup { \NoteHeadLine #135.5 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s16
 s4 s4 s4 s4 s4 s4 s4 
@@ -296,14 +296,14 @@ s4 s4 s4 s4 s4 s4 s4
 \tweak TextScript.X-offset #-1.5
 \parenthesize
 ef4 
-_\markup { \NoteHeadLine #118 #2 #.5 #black }
+_\markup { \NoteHeadLine #135.5 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s32
 \tweak NoteColumn.X-offset #-1.4
 \tweak TextScript.X-offset #-1.4
 \parenthesize
 ef4 
-_\markup { \NoteHeadLine #118 #2 #.5 #black }
+_\markup { \NoteHeadLine #135.5 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s32
 s8. s4 s4 s4 s4 s4 s4 s16
@@ -311,7 +311,7 @@ s8. s4 s4 s4 s4 s4 s4 s16
 \tweak TextScript.X-offset #-1.1
 \parenthesize
 ef4 
-_\markup { \NoteHeadLine #118 #2 #.5 #black }
+_\markup { \NoteHeadLine #135.5 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s16
 s8 s4 s4 s4 s4 s4 s4 s16
@@ -331,13 +331,13 @@ ef4
 _\markup { \NoteHeadLine #10 #2 #.5 #red }
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #60 #2 #.5 #black }
+_\markup { \NoteHeadLine #58 #2 #.5 #black }
 s4 s4 s8
 \tweak NoteColumn.X-offset #-1
 \tweak TextScript.X-offset #-1
 \parenthesize
 ef4 
-_\markup { \NoteHeadLine #118 #2 #.5 #black }
+_\markup { \NoteHeadLine #135.5 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s8 s4 s4 s4 s4 s4 s4 s8
 \tweak NoteColumn.X-offset #0.9
@@ -356,7 +356,7 @@ ef4
 _\markup { \NoteHeadLine #10 #2 #.5 #red }
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #40 #2 #.5 #black }
+_\markup { \NoteHeadLine #23 #2 #.5 #black }
 s8
 s16
 \tweak NoteColumn.X-offset #-.6
@@ -375,7 +375,7 @@ ef4
 _\markup { \NoteHeadLine #10 #2 #.5 #red }
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #60 #2 #.5 #black }
+_\markup { \NoteHeadLine #61 #2 #.5 #black }
 s4 s4 s4 s4 s4 s4 s4 s4 s4 
 \tweak color "red"
 \tweak Accidental.stencil #ly:text-interface::print
@@ -384,12 +384,12 @@ ef4
 _\markup { \NoteHeadLine #10 #2 #.5 #red }
 % \tweak color "red"
 ef4 
-_\markup { \NoteHeadLine #40 #2 #.5 #black }
+_\markup { \NoteHeadLine #14 #2 #.5 #black }
 \tweak NoteColumn.X-offset #-.5
 \tweak TextScript.X-offset #-.5
 \parenthesize
 ef4 
-_\markup { \NoteHeadLine #118 #2 #.5 #black }
+_\markup { \NoteHeadLine #135.5 #2 #.5 #black }
 _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s4 s4 s4 s4 s4 s4 s4 
 }
