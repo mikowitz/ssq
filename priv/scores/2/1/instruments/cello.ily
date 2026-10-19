@@ -17,14 +17,14 @@ cello = \relative c' {
         r4 s4
 
         ef4
-        ^\markup { \NoteHeadLine #93.5 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #96.7 #2 #1.5 #black }
 
         s4 * 4
 
         \tweak NoteColumn.X-offset #1.3
         \parenthesize
         ef4
-        ^\markup { \NoteHeadLine #135.5 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #137.5 #2 #1.5 #black }
         ^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 
         s4 * 6
@@ -40,7 +40,7 @@ cello = \relative c' {
         r4 s4 * 3
 
         ef8
-        ^\markup { \NoteHeadLine #3 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #5 #2 #1.5 #black }
 
         \tweak NoteColumn.X-offset #-1.3
         \parenthesize
@@ -51,7 +51,7 @@ cello = \relative c' {
         r4
 
         ef4
-        ^\markup { \NoteHeadLine #105 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #108 #2 #1.5 #black }
         s4 * 4
         s8
 
@@ -69,13 +69,13 @@ cello = \relative c' {
         r4
 
         ef4
-        ^\markup { \NoteHeadLine #47 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #49 #2 #1.5 #black }
 
         s4 s8 s16
 
         \parenthesize
         ef4
-        ^\markup { \NoteHeadLine #135.5 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #137.5 #2 #1.5 #black }
         ^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 
         s16
@@ -101,7 +101,7 @@ cello = \relative c' {
         \tweak Accidental.stencil #ly:text-interface::print
         \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
         ef!4
-        ^\markup { \NoteHeadLine #29.4 #2 #1.5 #red }
+        ^\markup { \NoteHeadLine #30.8 #2 #1.5 #red }
 
         s8 s16
 
@@ -121,7 +121,7 @@ cello = \relative c' {
         r4
 
         ef4
-        ^\markup { \NoteHeadLine #14 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #16.2 #2 #1.5 #black }
 
         \tweak NoteColumn.X-offset #-1.2
         \parenthesize
@@ -134,7 +134,7 @@ cello = \relative c' {
         r4
 
         ef4
-        ^\markup { \NoteHeadLine #32 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #34.5 #2 #1.5 #black }
 
         s4
 
@@ -149,7 +149,7 @@ cello = \relative c' {
         r4 s4
 
         ef4
-        ^\markup { \NoteHeadLine #46 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #48.8 #2 #1.5 #black }
 
         s4 s8 s32
 
@@ -188,7 +188,7 @@ cello = \relative c' {
         \startStaff
 
         ef4
-        ^\markup { \NoteHeadLine #102.3 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #104.9 #2 #1.5 #black }
 
         s4 * 5
         s16
@@ -228,7 +228,7 @@ cello = \relative c' {
         \startStaff
 
         ef4
-        ^\markup { \NoteHeadLine #21 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #22.8 #2 #1.5 #black }
         ^\markup {
           \override #'(start-y . 2.5)
           \override #'(start-x . .5)
@@ -240,7 +240,7 @@ cello = \relative c' {
         \tweak TextScript.X-offset #-.8
         \parenthesize
         ef4
-        ^\markup { \NoteHeadLine #135.5 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #137.5 #2 #1.5 #black }
         ^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
         s64
         s16 
@@ -249,7 +249,7 @@ cello = \relative c' {
         \tweak NoteColumn.X-offset #-1.4
         \parenthesize
         ef4
-        ^\markup { \NoteHeadLine #135.5 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #137.5 #2 #1.5 #black }
         ^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
         s4 * 7
         s16
@@ -257,7 +257,7 @@ cello = \relative c' {
         \tweak NoteColumn.X-offset #-1.3
         \parenthesize
         ef4
-        ^\markup { \NoteHeadLine #135.5 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #137.5 #2 #1.5 #black }
         ^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
         s16
         s8 
@@ -319,13 +319,13 @@ cello = \relative c' {
         \startStaff
 
         ef4
-        ^\markup { \NoteHeadLine #16 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #17.7 #2 #1.5 #black }
         s16
 
         \tweak NoteColumn.X-offset #.7
         \parenthesize
         ef4
-        ^\markup { \NoteHeadLine #135.5 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #137.5 #2 #1.5 #black }
         ^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
         s16
         s8 
@@ -360,7 +360,7 @@ cello = \relative c' {
         \startStaff
 
         ef4
-        ^\markup { \NoteHeadLine #27.5 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #29.7 #2 #1.5 #black }
 
         s8 s16
 
@@ -409,7 +409,7 @@ cello = \relative c' {
         \startStaff
 
         ef4
-        ^\markup { \NoteHeadLine #111 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #113 #2 #1.5 #black }
         s4 * 6
 
         \tweak NoteColumn.X-offset #-1.3
@@ -437,14 +437,14 @@ cello = \relative c' {
         \startStaff
 
         ef4
-        ^\markup { \NoteHeadLine #62 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #64.7 #2 #1.5 #black }
         s4 * 3
         s16
 
         \tweak NoteColumn.X-offset #-1.2
         \parenthesize
         ef4
-        ^\markup { \NoteHeadLine #135.5 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #137.5 #2 #1.5 #black }
         ^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 
         s16
@@ -477,14 +477,14 @@ cello = \relative c' {
         \startStaff
 
         ef4
-        ^\markup { \NoteHeadLine #89 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #91.4 #2 #1.5 #black }
         s4 * 4
         s8 s16
 
         \tweak NoteColumn.X-offset #-.7
         \parenthesize
         ef4
-        ^\markup { \NoteHeadLine #135.5 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #137.5 #2 #1.5 #black }
         ^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
 
         s16
@@ -515,7 +515,7 @@ cello = \relative c' {
         \startStaff
 
         ef4
-        ^\markup { \NoteHeadLine #36 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #37.8 #2 #1.5 #black }
         s4 s8
 
         \parenthesize
@@ -535,7 +535,7 @@ cello = \relative c' {
         \tweak Accidental.stencil #ly:text-interface::print
         \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
         ef8
-        ^\markup { \NoteHeadLine #7 #2 #1.5 #red }
+        ^\markup { \NoteHeadLine #9 #2 #1.5 #red }
 
         s16
 
@@ -555,7 +555,7 @@ cello = \relative c' {
         \startStaff
 
         ef!4
-        ^\markup { \NoteHeadLine #130.5 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #132.7 #2 #1.5 #black }
         s4 * 7
 
         \tweak NoteColumn.X-offset #.4
@@ -604,13 +604,13 @@ cello = \relative c' {
         \startStaff
 
         ef8
-        ^\markup { \NoteHeadLine #4 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #6.2 #2 #1.5 #black }
         s32
 
         \tweak NoteColumn.X-offset #-.9
         \parenthesize
         ef16
-        ^\markup { \NoteHeadLine #135.5 #2 #1.5 #black }
+        ^\markup { \NoteHeadLine #137.5 #2 #1.5 #black }
         ^\markup { \NoteHeadLine #6 #-8 #1.5 #black }
         s32
         s4 * 7

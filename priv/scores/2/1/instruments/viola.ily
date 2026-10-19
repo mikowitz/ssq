@@ -21,7 +21,7 @@ viola = \relative c' {
         r4
 
         ef8
-        _\markup { \NoteHeadLine #6.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #8.5 #2 #3.5 #black }
 
         s32
 
@@ -42,7 +42,7 @@ viola = \relative c' {
         r4
 
         ef4
-        _\markup { \NoteHeadLine #73.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #76.4 #2 #3.5 #black }
 
         s4 * 2
         s8 s32
@@ -51,7 +51,7 @@ viola = \relative c' {
         \tweak TextScript.X-offset #-.9
         \parenthesize
         ef4
-        _\markup { \NoteHeadLine #135.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #137.5 #2 #3.5 #black }
         _\markup { \NoteHeadLine #6 #-8 #3.5 #black }
 
         s32
@@ -62,7 +62,7 @@ viola = \relative c' {
         \tweak NoteColumn.X-offset #-.9
         \parenthesize
         ef4
-        _\markup { \NoteHeadLine #135.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #137.5 #2 #3.5 #black }
         _\markup { \NoteHeadLine #6 #-8 #3.5 #black }
 
         s32
@@ -74,7 +74,7 @@ viola = \relative c' {
         \tweak NoteColumn.X-offset #-.9
         \parenthesize
         ef4
-        _\markup { \NoteHeadLine #135.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #137.5 #2 #3.5 #black }
         _\markup { \NoteHeadLine #6 #-8 #3.5 #black }
 
         s32
@@ -85,7 +85,7 @@ viola = \relative c' {
         \tweak NoteColumn.X-offset #-.9
         \parenthesize
         ef4
-        _\markup { \NoteHeadLine #135.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #137.5 #2 #3.5 #black }
         _\markup { \NoteHeadLine #6 #-8 #3.5 #black }
 
         s32
@@ -96,7 +96,7 @@ viola = \relative c' {
         \tweak NoteColumn.X-offset #-.9
         \parenthesize
         ef4
-        _\markup { \NoteHeadLine #135.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #137.5 #2 #3.5 #black }
         _\markup { \NoteHeadLine #6 #-8 #3.5 #black }
 
         s32
@@ -121,7 +121,7 @@ viola = \relative c' {
         \tweak Accidental.stencil #ly:text-interface::print
         \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
         ef8
-        _\markup { \NoteHeadLine #6.6 #2 #3.5 #red }
+        _\markup { \NoteHeadLine #8.7 #2 #3.5 #red }
 
         s32
 
@@ -143,7 +143,7 @@ viola = \relative c' {
         r4 s4
 
         ef4
-        _\markup { \NoteHeadLine #137 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #139 #2 #3.5 #black }
 
         s4 * 28
 
@@ -193,7 +193,7 @@ viola = \relative c' {
         \tweak Accidental.stencil #ly:text-interface::print
         \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
         ef16
-        _\markup { \NoteHeadLine #1.5 #2 #3.5 #red }
+        _\markup { \NoteHeadLine #3.5 #2 #3.5 #red }
 
         \tweak Parentheses.color "red"
         \tweak Accidental.color "red"
@@ -220,7 +220,7 @@ viola = \relative c' {
         _\markup { \NoteHeadLine #15 #2 #3.5 #red }
 
         ef4
-        _\markup { \NoteHeadLine #35 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #37 #2 #3.5 #black }
         s4 s8 s64
 
         \tweak NoteColumn.X-offset #-1.9
@@ -240,7 +240,7 @@ viola = \relative c' {
         s4 * 2
 
         ef!4
-        _\markup { \NoteHeadLine #129.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #131.8 #2 #3.5 #black }
 
         s4 * 6
         s8 s16
@@ -262,7 +262,7 @@ viola = \relative c' {
         _\markup { \NoteHeadLine #10 #2 #3.5 #red }
 
         ef4
-        _\markup { \NoteHeadLine #43.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #45.8 #2 #3.5 #black }
 
         s4 s8 s16
 
@@ -283,13 +283,13 @@ viola = \relative c' {
         s4
 
         ef4
-        _\markup { \NoteHeadLine #82 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #86 #2 #3.5 #black }
         s4 * 4
 
         \tweak NoteColumn.X-offset #-.5
         \parenthesize
         ef4
-        _\markup { \NoteHeadLine #135.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #137.5 #2 #3.5 #black }
         _\markup { \NoteHeadLine #6 #-8 #3.5 #black }
         s4 * 7
         s32
@@ -297,7 +297,7 @@ viola = \relative c' {
         \tweak NoteColumn.X-offset #-.4
         \parenthesize
         ef4
-        _\markup { \NoteHeadLine #135.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #137.5 #2 #3.5 #black }
         _\markup { \NoteHeadLine #6 #-8 #3.5 #black }
         s32
         s8. 
@@ -322,7 +322,7 @@ viola = \relative c' {
         _\markup { \NoteHeadLine #10 #2 #3.5 #red }
 
         ef4
-        _\markup { \NoteHeadLine #18.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #20.6 #2 #3.5 #black }
 
         s16 s32
 
@@ -363,7 +363,7 @@ viola = \relative c' {
         _\markup { \NoteHeadLine #10 #2 #3.5 #red }
 
         ef4
-        _\markup { \NoteHeadLine #113 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #115.8 #2 #3.5 #black }
         s4 * 5
         s8 s16
 
@@ -383,14 +383,14 @@ viola = \relative c' {
         _\markup { \NoteHeadLine #10 #2 #3.5 #red }
 
         ef4
-        _\markup { \NoteHeadLine #60.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #63.1 #2 #3.5 #black }
         s4 * 2
         s8 s16 s32
 
         \tweak NoteColumn.X-offset #.3
         \parenthesize
         ef4
-        _\markup { \NoteHeadLine #135.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #137.5 #2 #3.5 #black }
         _\markup { \NoteHeadLine #6 #-8 #3.5 #black }
 
         s32
@@ -412,7 +412,7 @@ viola = \relative c' {
         _\markup { \NoteHeadLine #10 #2 #3.5 #red }
 
         ef4
-        _\markup { \NoteHeadLine #32 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #34.3 #2 #3.5 #black }
 
         s4 s16
 
@@ -432,8 +432,8 @@ viola = \relative c' {
         _\markup { \NoteHeadLine #10 #2 #3.5 #red }
 
         ef4
+        _\markup { \NoteHeadLine #76.7 #2 #3.5 #black }
 
-        _\markup { \NoteHeadLine #73.5 #2 #3.5 #black }
         s4 * 3
         s16
 
@@ -454,14 +454,14 @@ viola = \relative c' {
         _\markup { \NoteHeadLine #10 #2 #3.5 #red }
 
         ef4
-        _\markup { \NoteHeadLine #21 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #22.8 #2 #3.5 #black }
 
         s8
         \tweak NoteColumn.X-offset #-1
 
         \parenthesize
         ef4
-        _\markup { \NoteHeadLine #135.5 #2 #3.5 #black }
+        _\markup { \NoteHeadLine #137.5 #2 #3.5 #black }
         _\markup { \NoteHeadLine #6 #-8 #3.5 #black }
         s8 
         s4 * 6
@@ -489,7 +489,7 @@ viola = \relative c' {
         \tweak Accidental.stencil #ly:text-interface::print
         \tweak Accidental.text \markup { \musicglyph #"accidentals.flat.arrowup" }
         ef4
-        _\markup { \NoteHeadLine #30.5 #2 #3.5 #red }
+        _\markup { \NoteHeadLine #32.2 #2 #3.5 #red }
 
         s4
 
