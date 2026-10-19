@@ -35,6 +35,8 @@ timeSig = {
     }
     s2 \bar "|" \break
   }
+  \override Staff.BarLine.layer = #1000
+  \override Score.SpanBar.layer = #1000
   \bar "|."
 }
 

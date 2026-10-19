@@ -32,7 +32,7 @@ _\markup { \NoteHeadLine #6 #-8 #.5 #black }
 s32
 s8
 
-\once\hide Rest
+% \once\hide Rest
 r4 
 ef4 
 _\markup { \NoteHeadLine #67 #2 #.5 #black }

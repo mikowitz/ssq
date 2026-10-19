@@ -9,12 +9,12 @@ violinII = \relative c' {
 \oneVoice
 
 \scaleDurations 600/180 {
-\once\hide Rest
+% \once\hide Rest
 r4 s4 s4 s4 s4 s4 s4 s4 s4 
 ef4 
 _\markup { \NoteHeadLine #28 #2 #.5 #black }
 s4 s4 s4 s4 s4 s4 
-\once\hide Rest
+% \once\hide Rest
 r4 
 ef4 
 _\markup { \NoteHeadLine #10 #2 #.5 #black }
